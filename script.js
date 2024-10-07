@@ -1,6 +1,6 @@
 // Object storing different word chains by version or date
 const wordChainsByVersion = {
-    "1": ['Starship', 'shipyard', 'yardstick', 'stickman', 'manpower', 'powerboat', 'Boathouse'],
+    "1": ['Starship', 'shipyard', 'yardstick', 'stickman', 'manpower', 'powerhouse', 'Houseboat'],
     "2": ['Notebook', 'bookstore', 'storefront', 'frontline', 'lineup', 'upstream', 'Streamline'],
     "3": ['Rainbow', 'bowtie', 'tieback', 'backpack', 'packhorse','horsepower','Powerline']
 };
@@ -33,7 +33,7 @@ function populateVersionSelect() {
     for (const version of sortedVersions) {
         const option = document.createElement('option');
         option.value = version;
-        option.textContent = `Version: ${version}`;
+        option.textContent = `Day:${version}`;
         versionSelect.appendChild(option);
     }
 }
