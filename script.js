@@ -3,7 +3,8 @@ const wordChainsByVersion = {
     "1": ['Starship', 'shipyard', 'yardstick', 'stickman', 'manpower', 'powerhouse', 'Houseboat'],
     "2": ['Notebook', 'bookstore', 'storefront', 'frontline', 'lineup', 'upstream', 'Streamline'],
     "3": ['Rainbow', 'bowtie', 'tieback', 'backpack', 'packhorse','horsepower','Powerline'],
-    "4": ['Blackboard', 'Boardgame', 'Gameplay', 'Playground', 'Groundwork', 'Workforce', 'Forcefield']
+    "4": ['Blackboard', 'Boardgame', 'Gameplay', 'Playground', 'Groundwork', 'Workforce', 'Forcefield'],
+    "5": ['Mothership', 'shipwreck', 'wreckingball', 'ballpark', 'parkside', 'sidekick', 'Kickstart']
 };
 
 // This will hold the currently selected word chain
