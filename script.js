@@ -4,7 +4,8 @@ const wordChainsByVersion = {
     "2": ['Notebook', 'bookstore', 'storefront', 'frontline', 'lineup', 'upstream', 'Streamline'],
     "3": ['Rainbow', 'bowtie', 'tieback', 'backpack', 'packhorse','horsepower','Powerline'],
     "4": ['Blackboard', 'Boardgame', 'Gameplay', 'Playground', 'Groundwork', 'Workforce', 'Forcefield'],
-    "5": ['Mothership', 'shipwreck', 'wreckingball', 'ballpark', 'parkside', 'sidekick', 'Kickstart']
+    "5": ['Mothership', 'shipwreck', 'wreckingball', 'ballpark', 'parkside', 'sidekick', 'Kickstart'],
+    "6": ['Pancake', 'Cakepop', 'Popcorn', 'Cornfield', 'Fieldwork', 'Workstation', 'Stationary']
 };
 
 // This will hold the currently selected word chain
